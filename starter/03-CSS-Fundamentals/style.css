@@ -1,0 +1,262 @@
+* {
+  /* border-top: #1098ad solid 10px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: sans-serif;
+  color: #444;
+  border-top: #1098ad solid 10px;
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 40px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+  margin-left: 0;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+li:nth-child(even) {
+  /* color: red; */
+}
+
+article p:last-child {
+  /* color: red; */
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 300ms;
+  text-decoration: underline tomato;
+  color: tomato;
+}
+
+a:active {
+  background-color: #444;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+nav a:link,
+nav a:visited {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child,
+nav a:visited:last-child {
+  margin-right: 0;
+}
+
+button {
+  position: absolute;
+  padding: 20px;
+  font-size: 20px;
+  color: #444;
+  right: 80px;
+  bottom: 55px;
+  border: 2px solid #444;
+  border-radius: 11px;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+  color: white;
+  transition: all 500ms;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: 02px;
+  border-radius: 6px;
+}
+
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: seagreen;
+} */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-left: 20px;
+  float: left;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/* .class {
+  clear: both;
+} */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+article {
+  float: left;
+  width: 825px;
+}
+
+aside {
+  float: right;
+  width: 300px;
+}
+
+footer {
+  clear: both;
+}
